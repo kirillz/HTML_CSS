@@ -12,3 +12,5 @@ KEY BINDINGS (PREFERENCES -> KEY BINDINGS):
 "keys": ["ctrl+`"], "command": "tag_classes"// Копирует в имена классов из HTML
 }
 ]
+
+Сайт с дополнениями - https://packagecontrol.io/
