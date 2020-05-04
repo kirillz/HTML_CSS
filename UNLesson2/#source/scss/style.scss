@@ -10,11 +10,11 @@ body {
 }
 
 .navigation {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  display: flex; // Элемент ведёт себя как блочный и выкладывает содержимое согласно флекс-модели.
+  align-items: center; // Флексы выравниваются в начале поперечной оси контейнера.
+  justify-content: flex-start; // Флексы прижаты к началу строки.
   a {
-    font-size: 24px;
+    font-size: 24px; // размер шрифта
     padding: 5px 15px;
 
   }
