@@ -55,14 +55,14 @@ View Sidebar -> Show Opened Files
 
 Tools > Command Pallette
 Про плагины значительно ускоряющие работу:
-- [ ] попросить записать занятие
-- [ ] Рассказать про Layouts
-- [ ] Рассказать про плагин Autofilename
-- [ ] про BracketHighlighter
-- [ ] про ColorHighlighter
-- [ ] Emmet и клавиша TAB
-- [ ] Свои сниппеты EMMET
-- [ ] про GoTo-CSS-Declaration
+
+- [X] Рассказать про Layouts
+- [X] Рассказать про плагин Autofilename
+- [X] про BracketHighlighter
+- [X] про ColorHighlighter
+- [X] Emmet и клавиша TAB
+- [X] Свои сниппеты EMMET
+- [X] про GoTo-CSS-Declaration
 
 Пример Emmet:
 `.class`
