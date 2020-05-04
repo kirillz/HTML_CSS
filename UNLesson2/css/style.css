@@ -1,6 +1,25 @@
-.summer {
-  color: #97F;
-  font-size: 36px;
-  font-style: oblique;
-  padding-left: 0 0 0 15px;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  padding: 0 5% 0 5%;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.navigation a {
+  font-size: 24px;
+  padding: 5px 15px;
+}
+
+#footer {
+  border: 0.1px solid black;
+  padding: 5px 15px;
 }

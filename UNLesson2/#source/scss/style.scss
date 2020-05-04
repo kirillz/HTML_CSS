@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0; // Устанавливает величину отступа от каждого края элемента
+  padding: 0; // Устанавливает значение полей вокруг содержимого элемента
+  overflow: hidden; //Отображается только область внутри элемента, остальное будет скрыто.
+  padding: 0 5% 0 5%; // Читай отступ: сверху, справа, снизу, слева.
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  a {
+    font-size: 24px;
+    padding: 5px 15px;
+
+  }
+  
+}
+
+#footer {
+  border: .1px solid black; // слошная рамка черного цвета вокруг footer
+  padding: 5px 15px;
+}

@@ -1,5 +1,34 @@
 //- index.pug
 doctype html
 html
+  //- подключим head
+  include includes/head.pug
   body
     h1 Заголовок h1
+    p Добро пожаловать на мини-сайт.
+    nav.navigation
+      a(href="/") Главная
+      a(href="about.html") О нас
+
+
+
+ 
+
+    //- подключим footer
+    include includes/foot.pug
+
+
+
+
+//- <!-- ТАК ПИСАЛИ РАНЕЕ -->
+//-<!-- <!DOCTYPE html>
+//-<html lang="en">
+//-<head>
+//-  <meta charset="UTF-8">
+//-  <title>Document</title>
+//-</head>
+//-<body>
+//-  
+//-</body>
+//-</html> -->
+//-<!-- /ТАК ПИСАЛИ РАНЕЕ -->
