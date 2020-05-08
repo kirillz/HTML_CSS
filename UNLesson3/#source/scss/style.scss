@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0; // Устанавливает величину отступа от каждого края элемента
+  padding: 0; // Устанавливает значение полей вокруг содержимого элемента
+  overflow: hidden; //Отображается только область внутри элемента, остальное будет скрыто.
+  padding: 0 5% 0 5%; // Читай отступ: сверху, справа, снизу, слева.
+}
+
+.navigation {
+  display: flex; // Элемент ведёт себя как блочный и выкладывает содержимое согласно флекс-модели.
+  align-items: center; // Флексы выравниваются в начале поперечной оси контейнера.
+  justify-content: flex-start; // Флексы прижаты к началу строки.
+  a {
+    font-family: Verdana, sans-serif;
+    font-size: 24px; // размер шрифта
+    padding: 5px 15px;
+    font-weight: 900; // Жирность шрифта
+    color: rgba(51, 122, 183, 0.7);
+    text-decoration: none; // Убрать подчеркивание у ссылок
+    position: relative;
+    display: inline-block;
+    transition: color .5s ease-out;
+  }
+  a::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background: #337AB7;
+    transition: height .5s ease-out;
+  }
+
+  a:hover {
+    transition: all .5s ease-in-out;
+    color: #fff;
+  }
+
+  a:hover::before {
+    height: 100%;
+  }
+  
+}
+
+#footer {
+  border: .1px solid black; // слошная рамка черного цвета вокруг footer
+  padding: 5px 15px;
+}
