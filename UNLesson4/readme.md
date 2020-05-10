@@ -24,7 +24,7 @@ html
     include ../includes/foot.pug
  ```  
  
- Да это по сути наш файл index.pug с единственным отличием - контен обозначен блоками `block`.  
+ Да это по сути наш файл index.pug с единственным отличием - контент обозначен блоками `block`.  
  Файл `index.pug` приводим к следующему виду:  
 ```
 extends layout/base.pug
@@ -53,9 +53,9 @@ html {
 
 ```
 body {
-  display: flex;
+  display: flex; // см. https://webref.ru/css/display
   flex-direction: column; // главную ось располагаем вертикально, а не слева направо.
-  height: 100%;
+  height: 100%; // высота
   margin: 0; // Устанавливает величину отступа от каждого края элемента
   padding: 0; // Устанавливает значение полей вокруг содержимого элемента
   overflow: hidden; //Отображается только область внутри элемента, остальное будет скрыто.
@@ -66,7 +66,7 @@ body {
 
 ```
 .header {
-    flex: 0 0 auto;
+    flex: 0 0 auto; // см. https://webref.ru/css/flex
 }
 
 ```  
