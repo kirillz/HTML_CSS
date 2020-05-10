@@ -1,0 +1,20 @@
+//- base.pug
+doctype html
+html
+  //- подключим head
+  include ../includes/head.pug
+  body
+    block header
+    .header
+      h1 Заголовок h1
+      p Добро пожаловать на мини-сайт.
+      nav.navigation
+        a(href="/") Главная
+        a(href="about.html") О нас
+        a(href="works.html") Наши работы
+    block content
+
+
+block footer
+//- подключим footer
+include ../includes/foot.pug
