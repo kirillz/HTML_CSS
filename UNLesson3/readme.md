@@ -1,3 +1,5 @@
+В этом занятии сделаем меню сайта.
+
 ###### Ссылки по теме:
 
 1. [position в CSS](https://webref.ru/course/positioning/position)  
