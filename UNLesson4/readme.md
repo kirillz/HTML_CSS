@@ -143,10 +143,10 @@ works CSS:
   bottom: 10%;
   color: #FFF;
   opacity: 0;
-  transition: color .6s ease;
+  transition: all .6s ease;
 }
 .portfolio-bg:hover {
-  transition: color .6s ease;
+  transition: all .6s ease;
   opacity: 1;
 }
 ```  
